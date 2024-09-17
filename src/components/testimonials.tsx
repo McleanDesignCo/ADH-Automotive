@@ -181,7 +181,7 @@ export function Testimonials() {
     <div id='repair-services' className="overflow-hidden py-12 md:py-20 lg:py-32">
       <Container>
         <div ref={setReferenceWindowRef}>
-          <Heading as="h3" className="mx-auto mt-2 max-w-5xl">
+          <Heading as="h3" className="mx-auto text-center mt-2 max-w-5xl">
             Trusted Car Repair Services in Birmingham, Digbeth – Brakes,
             Batteries, Clutch & More
           </Heading>
