@@ -9,7 +9,15 @@ export default function GoogleReviews() {
   const featurableWidgetId = "f21f72ff-dd90-4ea6-a7ff-55ab0ae9137c";
 
   return (
-    <ReactGoogleReviews layout="carousel" featurableId={featurableWidgetId}  />
+    <div>
+      <ReactGoogleReviews layout="carousel" featurableId={featurableWidgetId}  />
+      <style jsx global>{`
+        .slick-dots {
+          display: none !important;
+        }
+      `}</style>
+    </div>
+    
   );
 }    
     
