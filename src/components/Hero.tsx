@@ -1,20 +1,7 @@
 import { useId } from 'react'
 import Image from 'next/image'
 import clsx from 'clsx'
-
-import { AppDemo } from '@/components/AppDemo'
-import { AppStoreLink } from '@/components/AppStoreLink'
 import { Button } from '@/components/Button'
-import { Container } from '@/components/Container'
-import { PhoneFrame } from '@/components/PhoneFrame'
-import logoBbc from '@/images/logos/bbc.svg'
-import logoCbs from '@/images/logos/cbs.svg'
-import logoCnn from '@/images/logos/cnn.svg'
-import logoFastCompany from '@/images/logos/fast-company.svg'
-import logoForbes from '@/images/logos/forbes.svg'
-import logoHuffpost from '@/images/logos/huffpost.svg'
-import logoTechcrunch from '@/images/logos/techcrunch.svg'
-import logoWired from '@/images/logos/wired.svg'
 import { Heading } from './text'
 
 export function Hero() {
@@ -38,7 +25,7 @@ export function Hero() {
         <div className="relative z-10 flex h-full flex-col items-center justify-center px-6 py-48 text-center lg:py-96">
           <div className="mx-auto max-w-5xl">
             <div className="max-w-2xl">
-              <Heading dark="true" as="h1">
+              <Heading dark={true} as="h1">
                 Whatever your vehicle needs we have the tools and the know how.
               </Heading>
               <p className="mx-auto max-w-2xl text-lg leading-8 text-white/90">
