@@ -53,7 +53,7 @@ export function Hero() {
           <div className="flex items-center justify-center">
             <div className="relative z-10 mx-auto max-w-5xl p-6 py-48 lg:py-56">
               <div className="text-center">
-                <Heading dark="true" as="h1">
+                <Heading dark={true} as="h1">
                   Whatever your vehicle needs we have the tools and the know
                   how.
                 </Heading>
