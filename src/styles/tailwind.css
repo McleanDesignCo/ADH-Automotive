@@ -27,4 +27,8 @@
   .animate-fade-in {
     animation: fade-in 0.5s forwards;
   }
+
+  .slick-dots {
+    display: none;
+  }
   
