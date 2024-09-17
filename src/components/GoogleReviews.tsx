@@ -9,7 +9,7 @@ export default function GoogleReviews() {
   const featurableWidgetId = "f21f72ff-dd90-4ea6-a7ff-55ab0ae9137c";
 
   return (
-    <ReactGoogleReviews layout="badge" featurableId={featurableWidgetId} />
+    <ReactGoogleReviews layout="carousel" featurableId={featurableWidgetId}  />
   );
 }    
     
