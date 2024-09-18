@@ -24,7 +24,7 @@ const testimonials = [
     name: 'Brakes',
     title: 'VP of Sales, Protocol',
     quote:
-  'Brakes are vital for vehicle safety and must be inspected regularly. For expert advice and competitive prices on brake services, contact us directly. Ensure your brakes are in top condition!'  },
+  'Brake performance is critical for safety. ADH Automotive offers free brake checks to spot issues early or for peace of mind before trips. Experiencing warning lights, spongy pedals, pulling, squealing, juddering, or grinding? Let us help!'  },
   {
     img: '/ADH Battery 1.jpg',
     name: 'Car Batteries',
@@ -43,8 +43,8 @@ const testimonials = [
     name: 'Suspension',
     title: 'CSO, Planeteria',
     quote:
-      'Top-rated suspension repair services! Our skilled technicians use advanced tools for efficient suspension system diagnostics and repairs. Trust us for expert suspension damage solutions. Contact us today!',
-  },
+'ADH Automotive experts in diagnosing and repairing suspension issues: shock absorbers, ball joints, coil springs, and more. Free suspension check! Call us today!'  
+},
   {
     img: '/ADH Exhausts 1.jpeg',
     name: 'Exhaust Systems',
@@ -57,7 +57,7 @@ const testimonials = [
     name: 'Diagnostics',
     title: 'VP of Sales, Detax',
     quote:
-      'Dashboard warning light on? ADH provides expert vehicle diagnostics for engine, ABS, and airbag issues. Using the latest software, we detect faults accurately. Call us today for a quick check-up!',
+      'Warning light on? Don’t ignore it! ADH Automotive uses the latest diagnostic equipment to handle all vehicle management systems. Trust us to keep your car in good hands.',
   },
 ]
 

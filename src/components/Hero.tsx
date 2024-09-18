@@ -30,7 +30,7 @@ export function Hero() {
               </Heading>
               <p className="mx-auto max-w-2xl text-lg leading-8 text-white/90">
                 ADH Automotive is an independently run vehicle service and
-                repair centre established over 10 years ago with a simple but
+                repair centre established over 20 years ago with a simple but
                 effective policy of offering the customer proffesional top level
                 service at a competative rate
               </p>
