@@ -62,7 +62,7 @@ export default function Contact() {
                     <br />
                     Digbeth
                     <br />
-                    Birmingham, B12 ORP
+                    Birmingham, B12 OPG
                   <br />
                 </dd>
               </div>
