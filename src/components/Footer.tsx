@@ -284,11 +284,7 @@ export function Footer() {
             </div>
           </div>
         </div>
-        <div className="mt-16 border-t border-gray-900/10 pt-8 sm:mt-20 lg:mt-24">
-          <p className="text-xs leading-5 text-gray-500">
-            &copy; 2020 Your Company, Inc. All rights reserved.
-          </p>
-        </div>
+        <div className="mt-16 border-t border-gray-900/10 pt-8 sm:mt-20 lg:mt-24"><div className="flex my-4 space-x-10 text-center hover:text-accent justify-center sm:justify-between"><p className="text-xs leading-5 text-gray-500">© 2024 ADH Automotive Limited. All rights reserved.</p><a href="https://www.madebymclean.com" className="hidden sm:flex text-sm hover:opacity-50 duration-500 transition-all ease-in-out">Made by<p className="font-bold tracking-wide ml-1">MCLEAN</p></a></div><div className="flex justify-center"><a href="https://www.madebymclean.com" className="flex sm:hidden text-sm hover:opacity-50 duration-500 transition-all ease-in-out">Made by<span className="font-bold tracking-wide ml-1">MCLEAN</span></a></div></div>
       </div>
     </footer>
   )
