@@ -1,7 +1,12 @@
-import { Logo } from "./Logo"
-import { SVGProps } from 'react';
+import { Logo } from './Logo'
+import { SVGProps } from 'react'
 
-import { BuildingOffice2Icon, EnvelopeIcon, PhoneIcon, ClockIcon } from '@heroicons/react/24/outline'
+import {
+  BuildingOffice2Icon,
+  EnvelopeIcon,
+  PhoneIcon,
+  ClockIcon,
+} from '@heroicons/react/24/outline'
 import { Button } from './Button'
 
 const navigation = {
@@ -19,8 +24,14 @@ const navigation = {
   ],
   company: [
     { name: 'About', href: '/#' },
-    { name: 'Directions', href: 'https://www.google.com/maps?gs_lcrp=EgZjaHJvbWUqDggAEEUYJxg7GIAEGIoFMg4IABBFGCcYOxiABBiKBTIGCAEQRRg7MgYIAhBFGDkyCggDEAAYsQMYgAQyBggEEEUYPDIGCAUQRRg8MgYIBhBFGD0yBggHEEUYPNIBCDExODVqMWo3qAIAsAIA&um=1&ie=UTF-8&fb=1&gl=uk&sa=X&geocode=KaHn-sV9vHBIMY7xGeLGofc_&daddr=65+Cheapside,+Deritend,+Birmingham+B12+0PG' },
-    { name: 'Jobs', href: 'mailto:adhautomotive@btconnect.com?subject=Careers at ADH Automotive' },
+    {
+      name: 'Directions',
+      href: 'https://www.google.com/maps?gs_lcrp=EgZjaHJvbWUqDggAEEUYJxg7GIAEGIoFMg4IABBFGCcYOxiABBiKBTIGCAEQRRg7MgYIAhBFGDkyCggDEAAYsQMYgAQyBggEEEUYPDIGCAUQRRg8MgYIBhBFGD0yBggHEEUYPNIBCDExODVqMWo3qAIAsAIA&um=1&ie=UTF-8&fb=1&gl=uk&sa=X&geocode=KaHn-sV9vHBIMY7xGeLGofc_&daddr=65+Cheapside,+Deritend,+Birmingham+B12+0PG',
+    },
+    {
+      name: 'Jobs',
+      href: 'mailto:adhautomotive@btconnect.com?subject=Careers at ADH Automotive',
+    },
     { name: 'Press', href: '#' },
   ],
   legal: [
@@ -55,7 +66,6 @@ const navigation = {
         </svg>
       ),
     },
-
   ],
 }
 
@@ -115,7 +125,6 @@ export function Footer() {
                   </svg>
                 </div>
 
-
                 <dl className="mt-10 space-y-4 text-sm leading-7 text-neutral-600">
                   <div className="flex gap-x-4">
                     <dt className="flex-none">
@@ -150,7 +159,7 @@ export function Footer() {
                         className="hover:text-green-700"
                       >
                         <strong>Telephone:</strong>
-                        <br/>
+                        <br />
                         0121 753 5553
                       </a>
                     </dd>
@@ -169,8 +178,8 @@ export function Footer() {
                         className="hover:text-green-700"
                       >
                         <strong>Opening hours: </strong>
-                        <br/>Mon - Fri: 8.00am To 5.00pm
-                        Sat: 8.00am To 1.00pm
+                        <br />
+                        Mon - Fri: 8.00am To 5.00pm Sat: 8.00am To 1.00pm
                       </a>
                     </dd>
                   </div>
@@ -188,7 +197,7 @@ export function Footer() {
                         className="hover:text-green-700"
                       >
                         <strong>Email:</strong>
-                        <br/>
+                        <br />
                         adhautomotive@btconnect.com
                       </a>
                     </dd>
@@ -284,7 +293,28 @@ export function Footer() {
             </div>
           </div>
         </div>
-        <div className="mt-16 border-t border-gray-900/10 pt-8 sm:mt-20 lg:mt-24"><div className="flex my-4 space-x-10 text-center hover:text-accent justify-center sm:justify-between"><p className="text-xs leading-5 text-gray-500">© 2024 ADH Automotive Limited. All rights reserved.</p><a href="https://www.madebymclean.com" className="hidden sm:flex text-sm hover:opacity-50 duration-500 transition-all ease-in-out">Made by<p className="font-bold tracking-wide ml-1">MCLEAN</p></a></div><div className="flex justify-center"><a href="https://www.madebymclean.com" className="flex sm:hidden text-sm hover:opacity-50 duration-500 transition-all ease-in-out">Made by<span className="font-bold tracking-wide ml-1">MCLEAN</span></a></div></div>
+        <div className="mt-16 border-t border-gray-900/10 pt-8 sm:mt-20 lg:mt-24">
+          <div className="hover:text-accent my-4 flex justify-center space-x-10 text-center sm:justify-between">
+            <p className="text-xs leading-5 text-gray-500">
+              © 2024 ADH Automotive Limited. All rights reserved.
+            </p>
+            <a
+              href="https://www.madebymclean.com"
+              className="hidden text-sm transition-all duration-500 ease-in-out hover:opacity-50 sm:flex"
+            >
+              Made by<p className="ml-1 font-bold tracking-wide">MCLEAN</p>
+            </a>
+          </div>
+          <div className="flex justify-center">
+            <a
+              href="https://www.madebymclean.com"
+              className="flex text-sm transition-all duration-500 ease-in-out hover:opacity-50 sm:hidden"
+            >
+              Made by
+              <span className="ml-1 font-bold tracking-wide">MCLEAN</span>
+            </a>
+          </div>
+        </div>
       </div>
     </footer>
   )

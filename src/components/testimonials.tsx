@@ -183,7 +183,7 @@ export function Testimonials() {
         <div ref={setReferenceWindowRef}>
           <Heading as="h3" className="mx-auto text-center mt-2 max-w-5xl">
             Trusted Car Repair Services in Birmingham, Digbeth – Brakes,
-            Batteries, Clutch & More
+            Batteries, Clutches & More
           </Heading>
           <p className="text-md mx-auto mt-6 max-w-2xl text-center leading-6 text-gray-600">
             ADH Automotive in Digbeth, Birmingham, offers expert vehicle
