@@ -18,7 +18,7 @@ export default function Announcement() {
           <div className="ml-3">
             <Marquee>
               <p className="font-medium text-green-800">
-              <strong>£5 Off MOT test fee</strong> when carried out in conjunction with servicing. Offer on through <span className='underline underline-offset-2'>August & September</span>.
+              <strong>£5 Off MOT test fee</strong> when carried out in conjunction with servicing. Offer on through <span className='underline underline-offset-2'>December</span>.
 
               </p>
             </Marquee>
