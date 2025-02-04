@@ -6,7 +6,7 @@ const tiers = [
     name: 'Interim',
     id: 'tier-basic',
     href: 'tel:01217535553',
-    priceMonthly: 'From £140',
+    priceMonthly: 'Call for a Quote',
     description: 'Quis suspendisse ut fermentum neque vivamus non tellus.',
     mostPopular: false,
   },
@@ -14,7 +14,7 @@ const tiers = [
     name: 'Full',
     id: 'tier-essential',
     href: 'tel:01217535553',
-    priceMonthly: 'From £220',
+    priceMonthly: 'Call for a Quote',
     description: 'Quis eleifend a tincidunt pellentesque. A tempor in sed.',
     mostPopular: true,
   },
@@ -165,7 +165,7 @@ export default function CarServicingList() {
                           'mt-8 block rounded-md px-3 py-2 text-center text-sm font-semibold leading-6 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600',
                         )}
                       >
-                        Book {tier.name} Service
+                        Call for {tier.name} Service
                       </a>
                     </td>
                   ))}

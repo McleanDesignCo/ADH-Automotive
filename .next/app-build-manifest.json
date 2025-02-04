@@ -22,16 +22,10 @@
       "static/chunks/main-app.js",
       "static/chunks/app/not-found.js"
     ],
-    "/privacy/page": [
+    "/_not-found/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/chunks/app/privacy/page.js"
-    ],
-    "/privacy/layout": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/css/app/privacy/layout.css",
-      "static/chunks/app/privacy/layout.js"
+      "static/chunks/app/_not-found/page.js"
     ]
   }
 }

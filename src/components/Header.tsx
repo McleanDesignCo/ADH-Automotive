@@ -62,7 +62,7 @@ export function Header() {
   return (
     <>
     <header className='fixed z-[99]'>
-    <Announcement />
+    
       <nav className='w-screen bg-white z-50'>
         <Container className="relative z-50 flex justify-between py-4">
         <Popover className="z-50 flex items-center gap-4">
