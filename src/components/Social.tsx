@@ -3,7 +3,7 @@ import React from 'react'
 function Social() {
   return (
     <div className="flex items-center justify-center gap-2 px-2">
-      <p className='text-sm text-neutral-600 flex sm:hidden'>Join us on social </p>
+      <p className='text-sm text-neutral-600 hidden'>Join us on social </p>
       <div>
         <a href='https://www.facebook.com/adhautomotive/' aria-label='ADH Automotive Facebook Page'>
             <svg className='h-6 fill-green-700 hover:opacity-50 active:fill-green-600 active:opacity-100' viewBox="0 0 24 24">

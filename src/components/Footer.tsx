@@ -8,6 +8,7 @@ import {
   ClockIcon,
 } from '@heroicons/react/24/outline'
 import { Button } from './Button'
+import Social from './Social'
 
 const navigation = {
   links: [
@@ -206,16 +207,7 @@ export function Footer() {
               </div>
             </div>
             <div className="flex space-x-2">
-              {navigation.social.map((item) => (
-                <a
-                  key={item.name}
-                  href={item.href}
-                  className="text-gray-400 hover:text-gray-500"
-                >
-                  <span className="sr-only">{item.name}</span>
-                  <item.icon aria-hidden="true" className="h-6 w-6 fill-green-700" />
-                </a>
-              ))}
+              <Social />
             </div>
           </div>
           <div className="mt-16 grid grid-cols-2 gap-8 xl:col-span-2 xl:mt-0">
