@@ -71,7 +71,7 @@ const navigation = {
 
 export function Footer() {
   return (
-    <footer aria-labelledby="footer-heading" className="bg-white">
+    <footer aria-labelledby="footer-heading" className="bg-white border border-t">
       <h2 id="footer-heading" className="sr-only">
         Footer
       </h2>
@@ -205,7 +205,7 @@ export function Footer() {
                 </dl>
               </div>
             </div>
-            <div className="flex space-x-6">
+            <div className="flex space-x-2">
               {navigation.social.map((item) => (
                 <a
                   key={item.name}
@@ -213,7 +213,7 @@ export function Footer() {
                   className="text-gray-400 hover:text-gray-500"
                 >
                   <span className="sr-only">{item.name}</span>
-                  <item.icon aria-hidden="true" className="h-6 w-6" />
+                  <item.icon aria-hidden="true" className="h-6 w-6 fill-green-700" />
                 </a>
               ))}
             </div>

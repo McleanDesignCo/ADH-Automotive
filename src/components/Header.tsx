@@ -125,10 +125,11 @@ export function Header() {
                             <MobileNavLink href="/#tyre-check">Tyres</MobileNavLink>
                           </div>
                           <div className="mt-8 flex flex-col gap-4">
-                           <Social />
+                           
                             <Button href="tel:0121 753 5553">
                             <PhoneIcon className='w-4'/> 0121 753 5553
                             </Button>
+                            <Social />
                           </div>
                         </PopoverPanel>
                       </>
@@ -141,8 +142,10 @@ export function Header() {
           
           <div className="flex items-center gap-4">
             
-            <div className='flex'>
-              
+            <div className='flex gap-4'>
+              <div className='hidden sm:flex'>
+              <Social />
+              </div>
             <Button href="tel:0121 753 5553" className="flex items-center gap-2">
               <PhoneIcon className='w-4'/> 0121 753 5553
             </Button>
