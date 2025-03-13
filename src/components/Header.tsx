@@ -129,7 +129,10 @@ export function Header() {
                             <Button href="tel:0121 753 5553">
                             <PhoneIcon className='w-4'/> 0121 753 5553
                             </Button>
-                            <Social />
+                            <div className='flex justify-center'>
+                            <Social />  
+                            </div>
+                            
                           </div>
                         </PopoverPanel>
                       </>

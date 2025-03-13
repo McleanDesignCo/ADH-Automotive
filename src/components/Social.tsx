@@ -2,11 +2,12 @@ import React from 'react'
 
 function Social() {
   return (
-    <div className="flex items-center justify-center gap-2 px-2">
-      <p className='text-sm text-neutral-600 hidden'>Join us on social </p>
-      <div>
+    <div className="flex items-center justify-center gap-2 pl-3 bg-[#1876f21a] border border-[#1876f230] rounded-full w-fit">
+      
+      <div className='flex items-center gap-2'>
+      <p className='text-sm text-[#1e406d]'>Join us on social </p>
         <a href='https://www.facebook.com/adhautomotive/' aria-label='ADH Automotive Facebook Page'>
-            <svg className='h-6 fill-green-700 hover:opacity-50 active:fill-green-600 active:opacity-100' viewBox="0 0 24 24">
+            <svg className='h-8 fill-[#1876f2d1] hover:opacity-50 active:fill-[#1877F2] active:opacity-100' viewBox="0 0 24 24">
                     <path
                         fillRule="evenodd"
                         d="M22 12c0-5.523-4.477-10-10-10S2 6.477 2 12c0 4.991 3.657 9.128 8.438 9.878v-6.987h-2.54V12h2.54V9.797c0-2.506 1.492-3.89 3.777-3.89 1.094 0 2.238.195 2.238.195v2.46h-1.26c-1.243 0-1.63.771-1.63 1.562V12h2.773l-.443 2.89h-2.33v6.988C18.343 21.128 22 16.991 22 12z"
